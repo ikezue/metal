@@ -1,0 +1,25 @@
+{
+  "name": "meteor-metal",
+  "description": "Utility package for Meteor applications",
+  "version": "0.0.1",
+  "author": "ikezue <ikezue@gmail.com>",
+  "contributors": [
+    {
+      "name": "ikezue",
+      "email": "ikezue@gmail.com"
+    }
+  ],
+  "keywords": [
+    "metal",
+    "meteor"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "rehab": "~0.0.3"
+  },
+  "scripts": {
+    "test": "cake test"
+  }
+}
