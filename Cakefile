@@ -16,6 +16,8 @@ task 'build', 'Build coffee2js using Rehab', sbuild = ->
     throw err if err
     console.log stdout + stderr
 
+task 'package', 'Write package JavaScript to ./.package', ->
+  exec "mkdir -p .package && cp lib/metal.js .package/metal.js"
+
 task 'test', 'Run unit tests with mocha-web', ->
   exec "METEOR_MOCHA_TEST_DIR=tests mrt"
-
